@@ -8,7 +8,7 @@
 
  # copy .vimrc & bundle
  mkdir -p ~/.vim/bundle
- cp -rf Vundle.vim ~/.vim/bundle
+ cp -rf ./* ~/.vim/
  cp -rf .vimrc ~
  user=`whoami`
  sudo chown ${user}:${user} ~/.viminfo
