@@ -74,7 +74,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 let g:miniBufExplMoreThanOne=0
 
-map <F11> :MBEbp<CR>
+map <F10> :MBEbp<CR>
 map <F12> :MBEbn<CR>
 
 
